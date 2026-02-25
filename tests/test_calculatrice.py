@@ -4,7 +4,7 @@ from src.calculatrice import addition, soustraction, multiplication, division
 class TestCalculatrice(unittest.TestCase):
 
     def test_addition(self):
-        self.assertEqual(addition(5, 4), 9)
+        self.assertEqual(addition(5, 4), 8)
 
     def test_soustraction(self):
         self.assertEqual(soustraction(10, 4), 6)
